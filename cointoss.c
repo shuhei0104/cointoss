@@ -5,6 +5,9 @@ int main(){
     int cnt1=0;
     int cnt2=0;
     char a[8];
+    printf("Who are you?\n");
+    scanf("%s",a);
+    printf("Hello %s!\n",a);
     printf("Tossing a coin...\n");
     for(i=0;i<3;i++){
         if(rand()%2==0){
